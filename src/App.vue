@@ -2,20 +2,20 @@
 import {ref,reactive} from "vue"
 const images = reactive([
     {
-        photo: "/uploads/big-1.jpg",
-        thumb: "/uploads/small-1.jpg"
+        photo: "uploads/big-1.jpg",
+        thumb: "uploads/small-1.jpg"
     },
     {
-        photo: "/uploads/big-2.jpg",
-        thumb: "/uploads/small-2.jpg"
+        photo: "uploads/big-2.jpg",
+        thumb: "uploads/small-2.jpg"
     },
     {
-        photo: "/uploads/big-3.jpg",
-        thumb: "/uploads/small-3.jpg"
+        photo: "uploads/big-3.jpg",
+        thumb: "uploads/small-3.jpg"
     },
     {
-        photo: "/uploads/big-4.jpg",
-        thumb: "/uploads/small-4.jpg"
+        photo: "uploads/big-4.jpg",
+        thumb: "uploads/small-4.jpg"
     }
 ])
 
@@ -81,7 +81,6 @@ function thumbClick(index) {
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                {{ i }}
                 <h2>Image Carousel with Vue.js 3</h2>
                 <div class="main d-flex justify-content-center align-items-center">
                     <div @click="prevButton()" class="left-arrow" :class="[prevArrowStyle,prevCursor]">
