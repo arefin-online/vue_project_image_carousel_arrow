@@ -1,0 +1,55 @@
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+i {
+    font-size: 30px;
+    color: #000;
+}
+.main {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.left-arrow {
+    margin-right: 10px;
+}
+.main-photo img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.right-arrow {
+    margin-left: 10px;
+}
+.gray i {
+    color: #afafaf;
+}
+.original i {
+    color: #000;
+}
+.cur_pointer {
+    cursor: pointer;
+}
+.cur_none {
+    cursor: default;
+}
+.small-photos {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.small-photo {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.small-photo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
